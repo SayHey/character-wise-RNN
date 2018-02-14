@@ -2,8 +2,8 @@
 data_path = "data/anna.txt"
 
 #Define hyperparameters
-batch_size = 10         # Sequences per batch
-num_steps = 50          # Number of sequence steps per batch
+batch_size = 100        # Sequences per batch
+num_steps = 100         # Number of sequence steps per batch
 lstm_size = 128         # Size of hidden layers in LSTMs
 num_layers = 2          # Number of LSTM layers
 learning_rate = 0.01    # Learning rate

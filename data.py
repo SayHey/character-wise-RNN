@@ -36,5 +36,6 @@ def get_batches(arr, batch_size, n_steps):
         # The features
         x = arr[:,n:n+n_steps]
         # The targets, shifted by one
-        y = arr[:,n+1:n+n_steps+1]
+        y = np.zeros_like(x)
+        y[:,:-1], y[:,-1] = x[:, 1:], x[:,0]
         yield x, y
