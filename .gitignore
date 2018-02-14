@@ -1,7 +1,0 @@
-﻿################################################################################
-# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
-################################################################################
-
-/__pycache__
-/checkpoints
-/.vs/character-wise-RNN/v15
